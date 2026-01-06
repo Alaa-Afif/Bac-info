@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(56, 70, 57);  
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+    width: 95vw;
+    align-items: center;
+    height: 20vh;
+}
+header h1{
+    float: left;
+    margin: 25px;
+    margin-top: 70px;
+    font-size: 50px;
+    
+}
+main{
+    margin: 20px;
+    align-items: center;
+    width: 95vw;
+    height: 70vh;
+}
+.left{
+    background-color: rgb(87, 130, 116);
+    width: 30vw;
+    height: 70vh;
+    float: left;
+    border-radius: 20px;
+}
+.left ul{
+    list-style: none;
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+}
+iframe{
+    width: 64vw;
+    height: 70vh;
+}
+.left a{
+    color: white;
+    margin: 5px;
+}
+.right{
+    float: right;
+    width: 64vw;
+    border-radius: 20px;
+    height: 70vh;
+    background-color: rgb(86, 104, 93);
+}
+form {
+    font-size: 20px;
+    color: white;
+    
+}
+form fieldset{
+    padding:20px;
+}
+.formu label,select{
+    display: inline-block;
+    width: 200px;
+    margin: 3px;
+}
+.formu input{
+    width: 200px;
+}
+.formu button{
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 40px;
+    border-radius: 5px;
+}   
